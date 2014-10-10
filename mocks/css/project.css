@@ -1,0 +1,45 @@
+.issues .id {
+  color: #aaa;
+}
+
+.issues > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #aaa;
+  padding: 5px;
+}
+
+.issues > div > * {
+  display: inline-block;
+}
+
+.issues > div .score {
+  text-align: center;
+  width: 60px;
+}
+
+.issues > div .info {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.issues > div .info .user {
+  flex: 0 1 auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.issues > div .info .meta {
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+.issues > div .user {
+  color: #aaa;
+}
+
+.issues > div .user img {
+  border-radius: 64px;
+}
