@@ -1,0 +1,27 @@
+{
+  "name": "enhance",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "~2.3.5",
+    "coffee-script": "~1.8.0",
+    "elasticsearch": "~2.4.3",
+    "express": "~4.9.7",
+    "express-promise-router": "0.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee app/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w33ble/enhance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w33ble/enhance/issues"
+  },
+  "homepage": "https://github.com/w33ble/enhance"
+}
